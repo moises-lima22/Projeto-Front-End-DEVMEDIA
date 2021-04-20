@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing:0;
+}
+
 div{
-    border: royalblue solid 10px;
+    border: royalblue solid 1px;
+    
 }
