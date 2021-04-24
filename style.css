@@ -282,9 +282,3 @@ footer{
     align-items: center;
     z-index: 99;
 }
-
-svg{
-    position:relative ;
-    z-index: 98;
-    bottom: 150px;
-}
