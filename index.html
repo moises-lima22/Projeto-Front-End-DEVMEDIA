@@ -3,51 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
     <title>Pousada Secreta</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700">
 </head>
 <body>
     <header id="header">
-        <div>
-            <a href="">Pousada Secreta</a>
-            <a href="">Sobre</a>
-            <a href="">Rota</a>
-            <a href="">Quartos</a>
-        </div>
+        <svg class="svg_header" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,128L80,122.7C160,117,320,107,480,106.7C640,107,800,117,960,117.3C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <nav>
+            <a class="link_pousada" href="#Top">Pousada <span>Secreta</span></a>
+            <a href="#Pousada">SOBRE</a>
+            <a href="#Rota  ">ROTA</a>
+            <a href="#Quartos">QUARTOS</a>
+        </nav>
     </header>
     <main>
-        <section>
-                <div>
+        <section id="Top">
+            <div class="title_top">
                 <h1>Pousada Secreta</h1>
                 <p>A pousada reservada em Angra dos Reis</p>
             </div>
-            <img src="documents/assets/img-fundo.jpg" alt="Ilha Angra dos Reis">
         </section>
-        <section>
-            <div>
-                <h2>Seja Bem Vindo(A)!</h2>
+        <section id="Quartos">
+            <div class="title_section">
+                <h2>SEJA BEM VINDO(A)!</h2>
                 <p>Relaxe em nossas acomodações e curta o melhor de Angra do Reis.</p>
                 <p>Temos quartos para solteiros, casal ou família.</p>
             </div>
-            <div class="Quartos">
-                <img src="documents/assets/quarto-solteiro1.jpg" alt="QUARTO DE SOLTEIRO">
-                <a href="">QUARTO DE SOLTEIRO</a>
-                <img src="documents/assets/quarto-casal1.jpg" alt="QUARTO DE CASAL">
-                <a href="">QUARTO DE CASAL</a>
-                <img src="documents/assets/quarto-familia1.jpg" alt="QUARTO DE FAMÍLIA">
-                <a href="">QUARTO DE FAMÍLIA</a>
+            <div class="div_quartos">
+                <a href="">
+                    <img src="documents/assets/quarto-solteiro1.jpg" alt="quarto-solteiro">
+                    <p>Quarto de solteiro</p>
+                </a>
+                <a href="">
+                    <img src="documents/assets/quarto-casal1.jpg" alt="quarto-casal">
+                    <p>Quarto de casal</p>
+                </a>
+                <a href="">
+                    <img src="documents/assets/quarto-familia1.jpg" alt="quarto-familia">
+                    <p>Quarto de família</p>
+                </a>
             </div>
         </section>
-        <section>
-            <div>
+        <section id="Rota">
+            <div class="title_section">
                 <h2>Rota</h2>
                 <p>Vejo como chegar até a pousada</p>
             </div>
-            <iframe  height="400" width="100%" src="https://www.google.com/maps/place/Av.+Ayrton+Senna,+3000+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22775-003/@-22.9827933,-43.3650107,17z/data=!3m1!4b1!4m5!3m4!1s0x9bda2a689aeccd:0xa51f3be0d88fc0f!8m2!3d-22.9827933!4d-43.362822" frameborder="0"></iframe>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.115135756786!2d-43.36501068590768!3d-22.98279328497317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2a689aeccd%3A0xa51f3be0d88fc0f!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-003!5e0!3m2!1spt-BR!2sbr!4v1619021218662!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </section>
-
+        <section id="Pousada">
+            <div class="title_section" >
+                <h2>Sobre a Pousada!</h2>
+                <p>Conheça um pouco sobre a nossa pousada.</p>
+            </div>
+            <div class="container_card">
+                <div  class="card">
+                    <div class="card_title">
+                        <h3>A pousada</h3>
+                        <p>A pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                    </div>
+                    <div class="card_img">
+                        <img src="documents/assets/img1.jpg" alt="A pousada">
+                    </div>
+                </div>
+                <div  class="card">
+                    <div class="card_title">
+                        <h3>Nossos quartos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores rerum excepturi, ex voluptate reprehenderit. </p>
+                    </div>
+                    <div class="card_img">
+                        <img src="documents/assets/img2.jpg" alt="Nossos quartos">
+                    </div>
+                </div>
+                <div  class="card">
+                    <div class="card_title">
+                        <h3>Alimentação</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi ad temporibus nobis molestias, ipsa asperiores nihil duc</p>
+                    </div>
+                    <div class="card_img">
+                        <img src="documents/assets/img3.jpg" alt="Alimentação">
+                    </div>                    
+                </div>
+                <div  class="card">
+                    <div class="card_title">
+                        <h3>Recepção</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, necessitatibus cumque! Tempore sequi omnis, autem</p>
+                    </div>  
+                    <div class="card_img">
+                        <img src="documents/assets/img5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="contato">
+                <div>
+                    <H3>Entre em contato conosco:</H3>
+                </div>
+                <div>
+                    <a href="https://www.google.com/maps/search/22+Special+Coffee+-+Barra,+Av.+Ayrton+Senna,+3000+-+Quiosque+01+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22775-904/@-22.9827933,-43.3650107,17z/data=!3m1!4b1" target="_blank"><img src="documents/assets/icones/endereco.png" alt="Endereço">
+                    </a>
+                    <p>Endereço Av. 123, 222 - Rio de Janeiro RJ</p>
+                </div>
+                <div>
+                    <img src="documents/assets/icones/telefone.png" alt="Telefone">
+                    <p>Celula: 55 21 11111-1111</p>
+                </div>
+                <div>
+                    <a href="https://www.booking.com/index.pt-br.html?label=gen173nr-1DCAEoggI46AdIM1gEaCCIAQGYAS24ARfIAQzYAQPoAQGIAgGoAgO4AtChgoQGwAIB0gIkNzVhNDA0NGItMzdmNi00N2JiLWE2ZjMtNTNhMjVhNzA2NmQw2AIE4AIB;sid=3c7a2ac2f879197edd9c8305eb311b36;keep_landing=1&sb_price_type=total&" target="_blank"><img src="documents/assets/icones/calendario.png" alt="Calendário">
+                    </a>
+                    <p>Faça sua reserva pelo Booking.com</p>
+                </div>
+            </div>
+            <div class="Copyright">
+                <p>&#xA9 Copyright - Pousada Dev</p>
+            </div>
+        </div>
+        <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,96L120,106.7C240,117,480,139,720,138.7C960,139,1200,117,1320,106.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>-->
+    </footer>
 </body>
 </html>
