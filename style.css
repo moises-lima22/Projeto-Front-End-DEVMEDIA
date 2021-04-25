@@ -26,7 +26,6 @@ ul, ol{
     background-color: rgba(255, 255, 255,0);
     height: 70px;
     width:var(--width-size);
-    font-size: 26px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -57,7 +56,7 @@ ul, ol{
 #header nav a{
     color:white ;
     margin: 8px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #header a:hover{
